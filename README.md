@@ -37,8 +37,8 @@ sudo apt install php-sqlite3
 ## 1. Naklonování repozitáře
 
 ```bash
-git clone <URL_repozitáře> parcelni-mapa
-cd parcelni-mapa
+git clone https://github.com/DavidPuzder/VIAGEM-Katastr-ln-mapa-parcel.git
+cd VIAGEM-Katastr-ln-mapa-parcel
 ```
 
 ## 2. Instalace PHP závislostí (Laravel)
