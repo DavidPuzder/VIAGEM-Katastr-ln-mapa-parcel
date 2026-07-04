@@ -153,13 +153,8 @@ php artisan db:seed
 
 ## 6. Sestavení frontendu
 
-Vzhledem k tomu, že `.env` je nastaven na `APP_ENV=production` a `APP_DEBUG=false`, doporučujeme vždy sestavit produkční build frontendu (ne dev server):
 
-```bash
-npm run build
-```
-
-Pouze pro lokální vývoj a testování s hot-reload (nedoporučeno pro reálné nasazení):
+Pro lokální vývoj a testování s hot-reload:
 
 ```bash
 npm run dev
